@@ -22,7 +22,7 @@ namespace TrialApplication
             services.AddMvc(option => option.EnableEndpointRouting = false);
             services.AddSpaStaticFiles(configuration =>
             {
-                configuration.RootPath = "demoapp/build";
+                configuration.RootPath = "demoapp/src";
             });
         }
 
